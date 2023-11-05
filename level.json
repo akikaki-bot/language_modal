@@ -1,5 +1,5 @@
 {
-    "@version" : "1.0",
+    "@version" : "1.1",
     "index" : ["love","segment","menhera","angrybai","angry","shock","sadness"],
     "data" : [
         {
@@ -11,13 +11,28 @@
                     "point" : 0.01
                 },
                 {
+                    "if" : "あいし",
+                    "match" : "てる|てるよ",
+                    "point" : 0.01
+                },
+                {
                     "if" : "大好き",
                     "match" : "大好き",
                     "point" : 0.05
                 },
                 {
+                    "if" : "だいすき",
+                    "match" : "だいすき",
+                    "point" : 0.05
+                },
+                {
                     "if" : "大好き愛し",
                     "match" : "大好き愛し",
+                    "point" : 0.05
+                },
+                {
+                    "if" : "だいすきあいし",
+                    "match" : "だいすきあいし",
                     "point" : 0.05
                 },
                 {
@@ -28,7 +43,7 @@
                 {
                     "if" : "すき",
                     "match" : "すき",
-                    "point" : 0.001
+                    "point" : 0.025
                 },
                 {
                     "if" : "い",
